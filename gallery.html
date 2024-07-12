@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News - The Daily Chronicles</title>
+    <style>
+        body {
+            font-family: "Oswald", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        nav {
+            background: linear-gradient(to right, #0066cc, #00ccff);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            margin-left: 20px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f0f8ff;
+        }
+        nav .logo {
+            height: 60px;
+            width: auto;
+        }
+        .heading {
+            font-size: 36px;
+            text-align: center;
+            margin: 20px 0;
+            color: #0066cc;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background-color: #e6f7ff;
+            flex-grow: 1;
+        }
+        .snippet {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .snippet:hover {
+            transform: scale(1.05);
+        }
+        .snippet img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .snippet p {
+            margin: 10px 0 0;
+            color: #333;
+            font-size: 16px;
+            line-height: 1.4;
+        }
+        footer {
+            background: linear-gradient(to right, #0066cc, #00ccff);
+            text-align: center;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="header">
+        <img src="the daily chronicles.png" alt="The Daily Chronicles" class="logo">
+        <div class="nav-links">
+            <a href="index.html" class="home">Home</a>
+            <a href="gallery.html" class="gallery1">Latest News</a>
+        </div>
+    </nav>
+
+    <div class="heading">
+        <h1>Latest News</h1>
+    </div>
+
+    <div class="gallery">
+        <div class="snippet">
+            <img src="news1.png" alt="News 1">
+            <p>A closer look at Anant Ambani's exquisite yellow diamond lion brooch. Pics and video</p>
+        </div>
+        <div class="snippet">
+            <img src="news2.png" alt="News 2">
+            <p>Biden calls Kamala Harris 'Vice President Trump' at high-stake news conference</p>
+        </div>
+        <div class="snippet">
+            <img src="news3.png" alt="News 3">
+            <p>'You are England cricket,’ says Nasser Hussain in emotional farewell message for Jimmy Anderson</p>
+        </div>
+        <div class="snippet">
+            <img src="news4.png" alt="News 4">
+            <p>The 35-minutes that revived England football team’s Euro 2024 campaign</p>
+        </div>
+        <div class="snippet">
+            <img src="news5.png" alt="News 5">
+            <p>Supreme Court grants interim bail to Delhi CM Arvind Kejriwal in excise policy case</p>
+        </div>
+        <div class="snippet">
+            <img src="news6.png" alt="News 6">
+            <p>India pitches for infusing new energies into BIMSTEC grouping</p>
+        </div>
+        <div class="snippet">
+            <img src="news7.png" alt="News 7">
+            <p>Paris Olympics: PV Sindhu, HS Prannoy Get Easy Groups; Tough Task For Lakshya Sen, Tanisha Crasto-Ashwini Ponnappa</p>
+        </div>
+        <div class="snippet">
+            <img src="news8.png" alt="News 8">
+            <p>India Hockey Star To Play In Paris Olympics After Doping Ban "Dark Phase"</p>
+        </div>
+        <div class="snippet">
+            <img src="news9.png" alt="News 9">
+            <p>Watch: Ravi Bishnoi Pulls Off Stunner Against Zimbabwe. Batter's Reaction Says It All</p>
+        </div>
+        <div class="snippet">
+            <img src="news10.png" alt="News 10">
+            <p>BJP, Allies Sweep Maharashtra Legislative Council Poll, Win 9 Of 11 Seats</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact at: Thedailychronicles@gmail.com | +91 9050366713</p>
+    </footer>
+</body>
+</html>
